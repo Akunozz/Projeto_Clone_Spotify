@@ -40,6 +40,10 @@ nav.navbar-transparente {
     margin: 12px 15px;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
 .capa {text-align: center;}
 
 .btn-custom {
@@ -86,6 +90,36 @@ nav.navbar-transparente {
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     padding-left: 80px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0px 5px;
 }
 
 h1 {
